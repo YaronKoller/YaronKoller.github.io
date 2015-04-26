@@ -1,0 +1,37 @@
+body {
+	background-color: AliceBlue;
+}
+
+.nav-pills{
+	background-color: Teal;
+	border-bottom: 2px solid #007070;
+}
+
+.nav-pills > li {
+	padding: 5px;
+}
+
+.nav-pills > li > a {
+	color: AliceBlue;
+
+}
+
+.nav-pills > li > a:hover {
+	font-weight: bold;
+	background-color: Teal;
+}
+
+.nav-pills > li.active > a,  .nav-pills > li.active > a:hover{
+	color: Teal;
+	font-weight: bold;
+	background-color: AliceBlue;
+}
+
+.jumbotron {
+	background-color: LightCyan;
+	border-bottom: 1px solid #D0EFEF;
+}
+
+.jumbotron > img {
+	padding-left: 50px;
+}
