@@ -1,10 +1,6 @@
-body {
-	background-color: AliceBlue;
-}
-
 .nav-pills{
-	background-color: Teal;
-	border-bottom: 2px solid #007070;
+	background-color: MidnightBlue;
+	border-bottom: 2px solid #000057;
 }
 
 .nav-pills > li {
@@ -18,18 +14,18 @@ body {
 
 .nav-pills > li > a:hover {
 	font-weight: bold;
-	background-color: Teal;
+	background-color: MidnightBlue;
 }
 
 .nav-pills > li.active > a,  .nav-pills > li.active > a:hover{
-	color: Teal;
+	color: MidnightBlue;
 	font-weight: bold;
 	background-color: AliceBlue;
 }
 
 .jumbotron {
-	background-color: LightCyan;
-	border-bottom: 1px solid #D0EFEF;
+	background-color: AliceBlue;
+	border-bottom: 1px solid #E0E8EF;
 }
 
 .jumbotron > img {
