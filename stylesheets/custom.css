@@ -31,3 +31,16 @@
 .jumbotron > img {
 	padding-left: 50px;
 }
+
+.project {
+	background-color: AliceBlue;
+	padding: 10px;
+	border: 1px solid #D0D8DF;
+	margin-bottom: 20px;
+	margin-left: 5x;
+	margin-right: 5px;
+}
+
+.project img {
+	width: 100%;
+}
