@@ -35,12 +35,16 @@
 .project {
 	background-color: AliceBlue;
 	padding: 10px;
-	border: 1px solid #D0D8DF;
-	margin-bottom: 20px;
-	margin-left: 5x;
-	margin-right: 5px;
+	border: 1px solid #C0C8CF;
+	margin: 5px;
+	margin-bottom: 25px;
 }
 
 .project img {
 	width: 100%;
+}
+
+.project h4 {
+	position: relative;
+	top: 5px;
 }
