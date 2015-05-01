@@ -9,12 +9,10 @@
 
 .nav-pills > li > a {
 	color: AliceBlue;
-
 }
 
 .nav-pills > li > a:hover {
-	font-weight: bold;
-	background-color: MidnightBlue;
+	background-color: #393990;
 }
 
 .nav-pills > li.active > a,  .nav-pills > li.active > a:hover{
@@ -30,6 +28,11 @@
 
 .jumbotron > img {
 	padding-left: 50px;
+}
+
+.jumbotron > h3 {
+	position: relative;
+	left: 20px;
 }
 
 .project {
