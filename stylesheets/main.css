@@ -30,7 +30,7 @@
 	padding-left: 50px;
 }
 
-.jumbotron > h3 {
+.jumbotron > h1, .jumbotron > h3 {
 	position: relative;
 	left: 20px;
 }
