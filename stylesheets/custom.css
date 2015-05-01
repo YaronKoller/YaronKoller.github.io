@@ -40,8 +40,15 @@
 	margin-bottom: 25px;
 }
 
+.project .helper {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
 .project img {
 	width: 100%;
+	vertical-align: middle;
 }
 
 .project h4 {
