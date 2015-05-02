@@ -35,6 +35,11 @@
 	left: 25px;
 }
 
+.jumbotron > h3 > a {
+	position: fixed;
+	left: 225px;
+}
+
 .project {
 	background-color: AliceBlue;
 	padding: 10px;
