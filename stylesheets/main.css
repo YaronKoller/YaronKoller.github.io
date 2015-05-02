@@ -1,6 +1,6 @@
-.nav-pills{
+.nav-pills {
 	background-color: MidnightBlue;
-	border-bottom: 2px solid #000057;
+	border-bottom: 1px solid #000057;
 }
 
 .nav-pills > li {
@@ -15,7 +15,7 @@
 	background-color: #393990;
 }
 
-.nav-pills > li.active > a,  .nav-pills > li.active > a:hover{
+.nav-pills > li.active > a,  .nav-pills > li.active > a:hover {
 	color: MidnightBlue;
 	font-weight: bold;
 	background-color: AliceBlue;
@@ -23,7 +23,7 @@
 
 .jumbotron {
 	background-color: AliceBlue;
-	border-bottom: 1px solid #E0E8EF;
+	border-bottom: 2px solid #E0E8EF;
 }
 
 .jumbotron > img {
@@ -32,13 +32,13 @@
 
 .jumbotron > h1, .jumbotron > h3 {
 	position: relative;
-	left: 20px;
+	left: 25px;
 }
 
 .project {
 	background-color: AliceBlue;
 	padding: 10px;
-	border: 1px solid #C0C8CF;
+	border: 2px solid #E0E8EF;
 	margin: 5px;
 	margin-bottom: 25px;
 }
