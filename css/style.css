@@ -15,10 +15,18 @@
 	background-color: #393990;
 }
 
-.nav-pills > li.active > a,  .nav-pills > li.active > a:hover {
+.nav-pills > li.active-btn > a,  .nav-pills > li.active-btn > a:hover {
 	color: MidnightBlue;
 	font-weight: bold;
 	background-color: AliceBlue;
+}
+
+.page {
+	display: none;
+}
+
+.show {
+	display: block;
 }
 
 .jumbotron {
