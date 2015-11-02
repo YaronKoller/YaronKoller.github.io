@@ -1,27 +1,9 @@
-.nav-pills {
-	background-color: MidnightBlue;
-	border-bottom: 1px solid #000057;
+.navbar-inverse {
+	border-bottom: 2px solid Black;
 }
 
-.nav-pills > li {
-	padding: 5px;
-}
-
-.nav-pills > li > a {
-	color: AliceBlue;
-}
-
-.nav-pills > li > a:hover {
-	background-color: #393990;
-}
-
-.nav-pills > li.active-btn > a,  .nav-pills > li.active-btn > a:hover {
-	color: MidnightBlue;
-	font-weight: bold;
-	background-color: AliceBlue;
-}
-
-.page {
+.jumbotron {
+	border-bottom: 1px solid LightGrey;
 	display: none;
 }
 
@@ -29,42 +11,8 @@
 	display: block;
 }
 
-.jumbotron {
-	background-color: AliceBlue;
-	border-bottom: 2px solid #E0E8EF;
-}
-
-.jumbotron > img {
-	padding-left: 50px;
-}
-
-.jumbotron > h1, .jumbotron > h3 {
-	position: relative;
-	left: 25px;
-}
-
-.jumbotron > h3 > a {
-	position: fixed;
-	left: 225px;
-}
-
-.project {
-	background-color: AliceBlue;
-	padding: 10px;
-	border: 2px solid #E0E8EF;
-	margin: 5px;
-	margin-bottom: 25px;
-}
-
-.project .helper {
-	height: 100%;
-	display: inline-block;
-	vertical-align: middle;
-}
-
 .project img {
-	width: 100%;
-	vertical-align: middle;
+	width: 75%;
 }
 
 .project h4 {

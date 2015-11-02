@@ -1,26 +1,18 @@
 function main() {
 	$('.home-btn').click(function() {
-		$('.active-btn').removeClass('active-btn');
-		$(this).addClass('active-btn');
+		$('.projects-btn').removeClass('active');
+		$(this).addClass('active');
 
-		$('.show').removeClass('show');
+		$('.projects').removeClass('show');
 		$('.home').addClass('show');
 	});
 
 	$('.projects-btn').click(function() {
-		$('.active-btn').removeClass('active-btn');
-		$(this).addClass('active-btn');
+		$('.home-btn').removeClass('active');
+		$(this).addClass('active');
 
-		$('.show').removeClass('show');
+		$('.home').removeClass('show');
 		$('.projects').addClass('show');
-	});
-
-	$('.contact-btn').click(function() {
-		$('.active-btn').removeClass('active-btn');
-		$(this).addClass('active-btn');
-
-		$('.show').removeClass('show');
-		$('.contact').addClass('show');
 	});
 }
 
