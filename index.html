@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="icon" href="favicon.ico">
+
 		<title>Yaron Koller</title>
-		<link rel="icon" href="img/favicon.png">
 
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 
 	<body>
-
 		<nav class="navbar-inverse">
 			<div class="container">
 				<ul class="nav navbar-nav">
@@ -24,30 +24,37 @@
 					<li>
 						<a href="resume.pdf">Resume</a>
 					</li>
-					
-					<li class="dropdown">
+
+					<li>
 						<a href="#" data-toggle="dropdown">
 							Contact <span class="caret"></span>
 						</a>
-						
+
 						<ul class="dropdown-menu">
 							<li class="dropdown-header">Email</li>
-							<li><a href="mailto:yaronkoller@live.ca">yaronkoller@live.ca</a></li>
-							<li><a href="mailto:ykoller@uwaterloo.ca">ykoller@uwaterloo.ca</a></li>
-							
+							<li>
+								<a href="mailto:yaronkoller@live.ca">yaronkoller@live.ca</a>
+							</li>
+							<li>
+								<a href="mailto:ykoller@uwaterloo.ca">ykoller@uwaterloo.ca</a>
+							</li>
+
 							<li class="divider"></li>
 
 							<li class="dropdown-header">GitHub</li>
-							<li><a href="https://github.com/YaronKoller">github.com/yaronkoller</a></li>
+							<li>
+								<a href="https://github.com/YaronKoller">github.com/yaronkoller</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
 			</div>
 		</nav>
 
-		<div class="home row jumbotron show">	
+		<div class="home jumbotron row show">
 			<div class="container">
-				<img class="col-md-2" src="img/me.png">
+				<img class="col-md-2" src="images/me.png">
+
 				<div class="col-md-10">
 					<h1>Hi, I'm Yaron Koller.</h1>
 					<p>
@@ -57,52 +64,61 @@
 			</div>
 		</div>
 
-		<div class="projects row jumbotron">
-			<ul class="container">
-				<li class="project">
-					<img src="img/blind.png">
-					<h4>
-						<a href="https://github.com/FroshBite/Blind">Blind</a>
-					</h4>
-					<p>
-						A 2D role-playing game, made using the Unity game engine and coded in C#. The game is unique in that, rather than giving the user numbers and statistics, it gives written descriptions of health, damage, etc. I have been working on Blind as part of a team comprising of <a href="https://github.com/ggkevinxing">Kevin Xing</a>, <a href="https://github.com/shanpls">Shan Phylim</a>, and myself (with some additional help from <a href="https://github.com/adijp">Aditya Jayaprakash</a>). Blind is an ongoing project and has taught me a lot about teamwork and project management.
-					</p>
-				</li>
+		<div class="projects jumbotron">
+			<div class="container">
+				<div class="project row show">
+					<div class="col-md-7">
+						<h3>
+							<a href="https://github.com/FroshBite/Blind">Blind</a>
+						</h3>
+						<p>
+							A 2D role-playing game, made using the Unity game engine and coded in C#. The game is unique in that, rather than giving the user numbers and statistics, it gives written descriptions of health, damage, etc. I have been working on Blind as part of a team comprising of <a href="https://github.com/ggkevinxing">Kevin Xing</a>, <a href="https://github.com/shanpls">Shan Phylim</a>, and myself (with some additional help from <a href="https://github.com/adijp">Aditya Jayaprakash</a>). Blind is an ongoing project and has taught me a lot about teamwork and project management.
+						</p>
+					</div>
+					<img class="col-md-5" src="images/blind.png">
+				</div>
 
-				<li class="project">
-					<img src="img/looharmony.png">
-					<h4>
-						<a href="https://github.com/PeterMilner/oopslol">LooHarmony</a>
-					</h4>
-					<p>
-						A program designed to be used for customer information management. LooHarmony reads from a file of customer data, stores the data in an array of Customer objects, allows the user to view and update info for any customer they chose, and writes the updated info back to the file in order to save the changes. This project was created in collaboration with <a href="https://github.com/PeterMilner">Peter Milner</a> and <a href="https://github.com/wuwoot9863">Tony Wu</a>. I first learned about version control with GitHub while working on LooHarmony, and also learned many important OOP techniques.
-					</p>
-				</li>
+				<div class="project row">
+					<div class="col-md-7">
+						<h3>
+							<a href="https://github.com/YaronKoller/MyZelda">MyZelda</a>
+						</h3>
+						<p>
+							My own personal take on The Legend of Zelda, a classic Nintendo video game. As with my other video game project, MyZelda was developed in Unity and coded in C#. This project marked my first time coding in C# as well as my first time using Git on command-line for version control. Despite being a little unpolished in its final form, MyZelda was a great learning experience, teaching me many skills that I have used in all of my subsequent projects.
+						</p>
+					</div>
+					<img class="col-md-5" src="images/myzelda.png">
+				</div>
 
-				<li class="project">
-					<img src="img/myzelda.png">
-					<h4>
-						<a href="https://github.com/YaronKoller/MyZelda">MyZelda</a>
-					</h4>
-					<p>
-						My own personal take on The Legend of Zelda, a classic Nintendo video game. As with my other video game project, MyZelda was developed in Unity and coded in C#. This project marked my first time coding in C# as well as my first time using Git on command-line for version control. Despite being a little unpolished in its final form, MyZelda was a great learning experience, teaching me many skills that I have used in all of my subsequent projects.
-					</p>
-				</li>
+				<div class="project row">
+					<div class="col-md-7">
+						<h3>
+							<a href="https://github.com/YaronKoller/YaronKoller.github.io">Personal website</a>
+						</h3>
+						<p>
+							If you're reading this, you must have already gotten a glimpse of what this project is about! My personal website is a work in progress and is meant to showcase some of my projects, along with my resume and some contact information. It is currently written only in HTML and CSS (with some help from Bootstrap), and is my first real attempt at web development. I hope to add a lot more to this website in the future (such as interactive features, once I learn JavaScript).
+						</p>
+					</div>
+					<img class="col-md-5" src="images/website.png">
+				</div>
+			</div>
 
-				<li class="project">
-					<img src="img/website.png">
-					<h4>
-						<a href="https://github.com/YaronKoller/YaronKoller.github.io">Personal website</a>
-					</h4>
-					<p>
-						If you're reading this, you must have already gotten a glimpse of what this project is about! My personal website is a work in progress and is meant to showcase some of my projects, along with my resume and some contact information. It is currently written only in HTML and CSS (with some help from Bootstrap), and is my first real attempt at web development. I hope to add a lot more to this website in the future (such as interactive features, once I learn JavaScript).
-					</p>
-				</li>
-			</ul>
+			<div class="btn-group btn-group-justified" role="group">
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-primary btn-lg prev-btn">
+	  					<span class="glyphicon glyphicon-triangle-left"></span>
+					</button>
+				</div>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-primary btn-lg next-btn">
+	  					<span class="glyphicon glyphicon-triangle-right"></span>
+					</button>
+				</div>
+			</div>
 		</div>
 
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/app.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/app.js"></script>
 	</body>
 </html>
