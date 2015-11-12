@@ -1,21 +1,21 @@
 function main() {
-	$('.home-btn').click(function() {
-		$('.projects-btn').removeClass('active');
+	$('.btn-home').click(function() {
+		$('.btn-projects').removeClass('active');
 		$(this).addClass('active');
 
 		$('.projects').removeClass('show');
 		$('.home').addClass('show');
 	});
 
-	$('.projects-btn').click(function() {
-		$('.home-btn').removeClass('active');
+	$('.btn-projects').click(function() {
+		$('.btn-home').removeClass('active');
 		$(this).addClass('active');
 
 		$('.home').removeClass('show');
 		$('.projects').addClass('show');
 	});
 
-	$('.next-btn').click(function() {
+	$('.btn-next').click(function() {
 		var current = $('.project.show');
 		var next = current.next();
 
@@ -29,7 +29,7 @@ function main() {
 		});
 	});
 
-	$('.prev-btn').click(function() {
+	$('.btn-prev').click(function() {
 		var current = $('.project.show');
 		var prev = current.prev();
 

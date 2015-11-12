@@ -7,24 +7,41 @@
 	display: none;
 }
 
-.show {
-	display: block;
-}
-
 .project {
 	display: none;
 }
 
+.show {
+	display: block;
+}
+
 .btn-group-justified {
-	padding-top: 3%;
+	padding-top: 5%;
 	padding-left: 25%;
 	padding-right: 25%;
 }
 
-h3 {
-	margin-top: 0;
-}
-
 img {
 	width: 100%;
+}
+
+.home img {
+	margin-top: 20px;
+}
+
+p {
+	text-align: justify;
+}
+
+.projects p {
+	margin-right: 15px;
+}
+
+
+h1, .home p {
+	margin-left: 15px;
+}
+
+h2 {
+	margin-top: 0;
 }
