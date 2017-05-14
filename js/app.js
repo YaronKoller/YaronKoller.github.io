@@ -59,14 +59,14 @@ function main() {
 	$(document).keypress(function(event) {
 		var key = String.fromCharCode(event.which);
 
-		if (key === 'h') {
+		if (key === 'a') {
 			showHome();
-		} else if (key === 'p') {
+		} else if (key === 'd') {
 			showProjects();
 		} else if ($('.home.show').length === 0 && $('.btn.active').length === 0) {
-			if (key === 'd') {
+			if (key === 's') {
 				nextProject();
-			} else if (key === 'a') {
+			} else if (key === 'w') {
 				prevProject();
 			}
 		}
